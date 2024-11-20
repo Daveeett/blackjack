@@ -320,7 +320,7 @@ function iniciarTemporizador() {
             document.getElementById("info").innerHTML += `<br>Jugador ${jugadorActual + 1} se planta automáticamente.`;
             plantarme();
         }
-    }, 6000); 
+    }, 8000); 
 }
 
 async function turnoCrupier() {
