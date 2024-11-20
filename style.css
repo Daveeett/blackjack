@@ -1083,3 +1083,45 @@ button:hover, .button:hover {
         font-size: 20px;
     }
 }
+
+.reglas-titulo {
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.reglas {
+    list-style-type: disc;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+
+    max-width: 600px;
+
+
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.reglas ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .reglas-titulo {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .reglas {
+        font-size: 18px;
+        padding: 8px;
+        margin: 15px auto;
+        max-width: 90%;
+    }
+
+    .reglas ul {
+        margin-left: 15px;
+    }
+}
